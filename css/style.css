@@ -56,9 +56,31 @@ body {
 	color: #333;
 }
 .content {
-	height: 100%;
+	min-height: 450px;
+	max-height: 100%;
 	border-bottom: 1px solid #eee;
 	padding: 5px;
+	background: #f7f7f7; 
+}
+.content .main {
+	float: left;
+	width: 630px;
+	background: white;
+	min-height: 440px;
+	padding: 5px;
+}
+.content .widget {
+	width: 235px;
+	margin: 0px 5px 0px 5px;
+	float: left;
+}
+.widget .widget-content {
+	height: 100px;
+	text-align: center;
+	background: white;
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 5px;
 }
 .footer {
 	text-align: center;
