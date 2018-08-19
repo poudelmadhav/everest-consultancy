@@ -32,7 +32,28 @@ body {
 	display: block;
 }
 .navbar {
-
+	height: 30px;
+	border-bottom: 1px solid #eee;
+	padding: 2px;
+}
+.navbar .nav-items {
+	list-style: none;
+}
+.navbar ul {
+	margin: 0px;
+	padding: 5px;
+}
+.nav-items li {
+	display: inline-block;
+	margin-right: 30px; 
+	text-transform: uppercase;
+}
+.nav-items li:hover {
+	font-weight: bold;
+}
+.nav-items a {
+	text-decoration: none;
+	color: #333;
 }
 .content {
 
