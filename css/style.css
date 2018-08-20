@@ -62,19 +62,22 @@ li.active a {
 	text-decoration: none;
 	color: #333;
 }
-.slider .madhav {
-	color: white;
-	background: red;
-	animation-name: madhav;
-    animation-duration: 4s;
-    animation-direction: alternate-reverse;
-    animation-iteration-count: infinite;
+.banner {
+	padding: 5px;
+}
+.banner .slider {
+	background: url("../images/Banner-2_eec.jpg") no-repeat center;
+	background-size: cover;
+	height: 200px;
+	animation: madhav 15s infinite;
+    animation-direction: alternate;
 }
 
 /* Animation */
+
 @keyframes madhav {
-    from {background-color: red;}
-    to {background-color: yellow;}
+    from {background: url("../images/Banner-2_eec.jpg") no-repeat center;}
+    to {background: url("../images/banner3.jpg") no-repeat center;}
 }
 
 .content {
