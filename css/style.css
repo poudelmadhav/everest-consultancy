@@ -55,6 +55,21 @@ body {
 	text-decoration: none;
 	color: #333;
 }
+.slider .madhav {
+	color: white;
+	background: red;
+	animation-name: madhav;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+/* Animation */
+@keyframes madhav {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
 .content {
 	min-height: 450px;
 	max-height: 100%;
