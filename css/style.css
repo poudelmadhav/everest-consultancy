@@ -92,6 +92,21 @@ li.active a {
 	min-height: 450px;
 	padding: 10px;
 }
+.banner-content {
+	position: relative;
+}
+.banner-content .about {
+	width: 32%;
+}
+.banner-image {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.banner-image img {
+	width: 65% !important;
+	float: right;
+}
 .content .widget {
 	position: absolute;
 	top: 5px;
