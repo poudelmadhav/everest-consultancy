@@ -48,8 +48,15 @@ body {
 	margin-right: 30px; 
 	text-transform: uppercase;
 }
-.nav-items li:hover {
+.active {
+	font-size: large;
 	font-weight: bold;
+}
+li.active a {
+	color: #ec6952;
+}
+.nav-items li a:hover {
+	color: orange;
 }
 .nav-items a {
 	text-decoration: none;
