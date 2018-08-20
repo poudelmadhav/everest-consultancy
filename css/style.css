@@ -67,7 +67,7 @@ li.active a {
 .banner .slider {
 	background: url("../images/Banner-2_eec.jpg") no-repeat center;
 	background-size: cover;
-	height: 200px;
+	height: 250px;
 	animation: madhav 15s infinite;
     animation-direction: alternate;
 }
@@ -75,7 +75,7 @@ li.active a {
 /* Animation */
 @keyframes madhav {
     from {background: url("../images/Banner-2_eec.jpg") no-repeat center;}
-    to {background: url("../images/banner3.jpg") no-repeat center;}
+    to {background: url("../images/slider1.jpeg") no-repeat center;}
 }
 
 .content {
