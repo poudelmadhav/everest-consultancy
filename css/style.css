@@ -60,22 +60,24 @@ body {
 	max-height: 100%;
 	border-bottom: 1px solid #eee;
 	padding: 5px;
-	background: #f7f7f7; 
+	background: #f7f7f7;
+	position: relative;
 }
 .content .main {
-	float: left;
 	width: 630px;
 	background: white;
-	min-height: 440px;
+	min-height: 450px;
 	padding: 5px;
 }
 .content .widget {
+	position: absolute;
+	top: 5px;
+	right: 10px;
 	width: 235px;
 	margin: 0px 5px 0px 5px;
-	float: left;
 }
 .widget .widget-content {
-	height: 100px;
+	height: 120px;
 	text-align: center;
 	background: white;
 	width: 100%;
