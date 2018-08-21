@@ -56,7 +56,6 @@ li.active a {
 	background: #f7cdcd;
 }
 .nav-items li a:hover {
-	color: orange;
 	background: #bdbdbd;
 }
 .nav-items a {
