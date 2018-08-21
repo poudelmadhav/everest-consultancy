@@ -21,7 +21,7 @@ body {
 	width: 151px;
 	float: left;
 }
-.header .company-name{
+.header .company-name {
 	font-size: 1.5em;
     font-weight: bold;
     margin-left: 160px;
@@ -40,26 +40,30 @@ body {
 	list-style: none;
 }
 .navbar ul {
-	margin: 0px;
-	padding: 5px;
+	margin: 0;
+	padding: 0;
 }
 .nav-items li {
 	display: inline-block;
-	margin-right: 30px; 
 	text-transform: uppercase;
+	border-right: 1px solid #eee;
 }
 .active {
 	font-weight: bold;
 }
 li.active a {
 	color: #ec6952;
+	background: #f7cdcd;
 }
 .nav-items li a:hover {
 	color: orange;
+	background: #bdbdbd;
 }
 .nav-items a {
 	text-decoration: none;
 	color: #333;
+	padding: 5px 25px;
+	display: block;
 }
 .banner {
 	padding: 5px;
