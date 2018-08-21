@@ -68,7 +68,7 @@ li.active a {
 	background: url("../images/Banner-2_eec.jpg") no-repeat center;
 	background-size: cover;
 	height: 250px;
-	animation: madhav 15s infinite;
+	animation: madhav 10s infinite;
     animation-direction: alternate;
 }
 
