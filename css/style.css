@@ -170,4 +170,5 @@ input[type="text"], input[type="email"] {
 	padding: 10px;
 	background: #f77878;
 	color: white;
+	cursor: pointer;
 }
